@@ -1,6 +1,5 @@
 import { FaArrowRightLong } from "react-icons/fa6";
 
-
 const Whyus=[
     {
         title : "Luxury facilities",
@@ -19,7 +18,7 @@ const Whyus=[
 function WhyUs() {
   return (
     <div className='flex flex-col md:flex-row  items-center justify-between px-5 md:px-20 gap-15 md:gap-40 my-20 md:my-30 overflow-hidden'>
-      <h1 className=' leading-tight flex-shrink-0 text-4xl font-semibold text-center md:text-start'>Why <br/>Choosing Us </h1>
+      <h1 className=' leading-tight flex-shrink-0 text-4xl md:text-[42px] font-semibold text-center md:text-start'>Why <br/>Choosing Us </h1>
       <div className='flex flex-col md:flex-row gap-8 md:gap-10'>
         {Whyus.map((d)=>(
             <div className='flex flex-col items-start gap-3 md:gap-5' key={d.title}>
