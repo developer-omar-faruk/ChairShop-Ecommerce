@@ -1,5 +1,6 @@
 import Experience from '../components/Experience'
 import Hero from '../components/Hero'
+import Materials from '../components/Materials'
 import WhyUs from '../components/WhyUs'
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
       <Hero/>
       <WhyUs/>
       <Experience/>
+      <Materials/>
     </div>
   )
 }
